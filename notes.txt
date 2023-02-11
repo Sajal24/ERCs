@@ -1,0 +1,8 @@
+what is the need to define an interface IERC for writing the ERC20 contract
+
+An interface is a way to specify a contract's required functions without providing their implementations. By defining an interface for the ERC20 standard, you ensure that any contract that claims to implement the ERC20 standard must have the functions specified in the interface.
+
+The purpose of using an interface for the ERC20 standard is to provide a clear and standard specification for developers to follow when creating their own ERC20 tokens. It helps ensure that all ERC20 tokens have the same basic functionality, making it easier for developers, exchanges, wallets, and other users to interact with them.
+
+In the case of the ERC20 interface, it specifies the functions that are required to be implemented in a contract in order to be considered an ERC20 compliant token. These functions include things like transferring tokens, checking the balance of an account, and others. By implementing this interface, a contract demonstrates that it follows the ERC20 standard, making it easier for other contracts and users to interact with it in a predictable and well-understood manner.
+
